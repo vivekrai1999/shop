@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    height: 100vh;
+    width: 80%;
+    margin: auto auto;
+    display: flex;
+
+}
+
+.left-container {
+    width: 50%;
+    height: 100%;
+    background-color: red;
+}
+
+.right-container {
+    padding: 4vw;
+    width: 50%;
+    height: 100%;
+    background-color: pink;
+}
+
+.container {
+    margin-bottom: 0.6vw;
+}
+
+.varients {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6vw;
+}
+
+.varient-buttons {
+    display: flex;
+    gap: 0.6vw;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: #fff;
+    padding: 0.5vw 1vw;
+    border: 1px solid #000;
+    border-radius: 50px;
+}
+
+.btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.quantity {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6vw;
+}
+
+.quantity-button {
+    border: 1px solid #000;
+    display: flex;
+    padding: 0.6vw;
+    justify-content: space-between;
+    width: 7vw;
+}
+
+.buy-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6vw;
+}
+
+.add-to-cart, .buy-now {
+    text-align: center;
+    padding: 0.6vw;
+    border: 1px solid #000;
+}
+
+.add-to-cart {
+    background-color: #fff;
+}
+
+.buy-now {
+    color: #fff;
+    background-color: #000;
+}
